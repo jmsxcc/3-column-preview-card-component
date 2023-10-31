@@ -91,12 +91,13 @@ button {
   background-color: hsl(179, 100%, 13%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
   body {
     height: auto;
   }
 
   .card {
+    width: 375px;
     flex-direction: column;
   }
 
